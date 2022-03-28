@@ -5,7 +5,7 @@
 */
 export function rangeSum(start, end) {
   let sumNumbers = 0;
-  for (i = start; i <= end; i++){
+  for (let i = start; i <= end; i++){
     if (i % 2 == 0){
       sumNumbers += i;
     }
